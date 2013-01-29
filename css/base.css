@@ -335,3 +335,98 @@
 /**************************
 		HEADER
 **************************/
+	body {
+	
+	}
+	
+	#header-wrapper{
+		background-color: #ccc;
+	}
+	
+	header {
+	
+	}
+	
+	header #logo-area {
+		float: left;
+		padding: 50px 0 50px 0;
+	}
+	
+	header #image-logo{
+		padding: 75px 40px 68px 54px;
+		float: left;
+	}
+	
+	.social-icons{
+		margin: 0;
+		float: right;
+		padding: 50px 0 50px 0;
+	}
+	
+	.social-icons ul{
+		margin: 0;
+	}
+	
+	.social-icons ul li{
+		display: inline-block;
+		margin: 0;
+	}
+	
+		
+	#nav-wrapper{
+		background-color:#99333e;
+		
+	}
+	
+	#nav-wrapper nav ul {
+		margin: 0;
+		padding:5px;
+		
+	}
+	
+	#nav-wrapper nav ul li {
+		margin: 0;
+		display: inline-block;
+		font-family: 'Cabin', serif;
+		font-size: 30px;
+		line-height:37px;
+		font-weight: bold;
+		padding: 25px 25px 25px 25px;
+		/*border: 1px solid #aaa;*/
+			
+	}
+	
+	#nav-wrapper nav ul li:last-child{
+		
+	}
+	
+	#nav-wrapper nav ul li a {
+		color:#ffffff;
+		text-decoration: none;
+		margin: 0;
+		
+	}
+	
+	#nav-wrapper nav ul li a:hover{
+		color:#ccc;
+	}
+	
+/**************************
+		MAIN
+**************************/	
+
+	.content-left {
+		width: 611px;
+		float: left;
+		background-color:#ccc;
+		
+	}
+	
+	.sidebar-right{
+		width: 323px;
+		float:right;
+		background-color:#ccc;
+		
+	
+	}	
+

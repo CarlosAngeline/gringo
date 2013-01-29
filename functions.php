@@ -19,6 +19,9 @@
 	
 	function enqueue_styles() {
 		if(!is_admin()) :
+			wp_register_style( 'Cabin-font', 'http://fonts.googleapis.com/css?family=Cabin:400,700', array(), '1', 'all' );
+			wp_enqueue_style( 'Cabin-font' );
+			
 			wp_register_style( 'base-style', THEME_DIR . '/css/base.css', array(), '1', 'all' );
 			wp_enqueue_style( 'base-style' );
 			
